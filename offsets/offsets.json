@@ -1,18 +1,26 @@
-#pragma once
-#include <fstream>
-#include "json.hpp"
-
-namespace config {
-	extern bool read();
-	extern void save();
-
-	inline std::ptrdiff_t dwLocalPlayer = 0x173B568;
-	inline std::ptrdiff_t dwEntityList = 0x18C7F98; // done
-	inline std::ptrdiff_t dwViewMatrix = 0x1929430; // done
-
-	inline std::ptrdiff_t dwPawnHealth = 0x7F0;
-	inline std::ptrdiff_t dwPlayerPawn = 0x7E4;
-	inline std::ptrdiff_t dwSanitizedName = 0x748;
-	inline std::ptrdiff_t m_iTeamNum = 0x3CB;
-	inline std::ptrdiff_t m_vecOrigin = 0x80;
+{
+    "build_number": 0,
+    "dwBuildNumber": 5334836, // done
+    "dwEntityList": 25984920, // done
+    "dwLocalPlayer": 24360296, // done
+    "dwPlantedC4": 26403048, // done
+    "dwViewMatrix": 26383408, // done
+    "m_ArmorValue": 8896,
+    "m_bIsDefusing": 8850,
+    "m_flC4Blow": 3848,
+    "m_flFlashOverlayAlpha": 4952,
+    "m_flNextBeep": 3844,
+    "m_flTimerLength": 3856,
+    "m_hPlayerPawn": 2020,
+    "m_iAccount": 64,
+    "m_iHealth": 820,
+    "m_iTeamNum": 971,
+    "m_pClippingWeapon": 4856,
+    "m_pGameSceneNode": 792,
+    "m_pInGameMoneyServices": 1784,
+    "m_sSanitizedPlayerName": 1864,
+    "m_szName": 3104,
+    "m_vOldOrigin": 4732,
+    "m_vecAbsOrigin": 200,
+    "dwLocalPlayerController": 26310312
 }
